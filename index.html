@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="theme-toggle" onclick="toggleTheme()">
+  <i id="theme-icon" class="fas fa-moon"></i>
+</div>
+    <nav>
+      <h1 class="logo">Jaydeep kushwaha</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+</header>
+
+  <section class="hero">
+  <div class="hero-content">
+    <img src="profile.jpg" alt="Profile Photo" class="profile-photo" />
+    <h2>Hello, I'm <span>Your Name</span></h2>
+    <p>Frontend Developer | Web Designer | JavaScript Enthusiast</p>
+    <button onclick="downloadCV()">Download CV</button>
+  </div>
+</section>
+
+
+  <section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java / DSA" />
+      <span>DSA</span>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+      <span>HTML</span>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+      <span>CSS</span>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+      <span>JavaScript</span>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+      <span>React</span>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+      <span>MongoDB</span>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+      <span>Node.js</span>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer with experience in creating responsive and dynamic web applications.</p>
+  </section>
+
+  <section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="https://source.unsplash.com/400x200/?portfolio" alt="Project" />
+      <h3>Portfolio Website</h3>
+      <p>A clean, responsive portfolio to showcase my skills and projects.</p>
+      <a href="#" class="project-btn" target="_blank">View Live</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://source.unsplash.com/400x200/?todo" alt="Project" />
+      <h3>Todo App</h3>
+      <p>Simple todo app with CRUD operations and local storage support.</p>
+      <a href="#" class="project-btn" target="_blank">View Live</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://source.unsplash.com/400x200/?weather" alt="Project" />
+      <h3>Weather App</h3>
+      <p>Fetches real-time weather data using OpenWeatherMap API.</p>
+      <a href="#" class="project-btn" target="_blank">View Live</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://source.unsplash.com/400x200/?ecommerce" alt="Project" />
+      <h3>E-Commerce UI</h3>
+      <p>Attractive and responsive e-commerce front-end using React.</p>
+      <a href="#" class="project-btn" target="_blank">View Live</a>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact" class="section contact-section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jaydeep kushwaha. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
